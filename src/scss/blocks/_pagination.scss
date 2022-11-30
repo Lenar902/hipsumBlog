@@ -1,0 +1,44 @@
+.pagination {
+    padding: 40px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination__current {
+    display: flex;   
+}   
+
+.pagination__current-item {
+    margin-right: 20px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    a {
+        font-weight: 700;
+        font-size: 18px;
+        text-decoration: none;
+        color: #000;        
+
+        &:hover {
+            color: #E84C50;
+        }
+    }
+
+    a.active {
+        color: #E84C50;
+    }
+}
+
+.pagination__text-link {  
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        color: #E84C50;
+    }
+}

@@ -1,0 +1,31 @@
+.button {
+    padding: 12px 40px;
+    border: none;    
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #375573;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        background: #2b435a;
+    }
+}
+
+.button-read-more {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #375573;
+    border-radius: 6px;
+    
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    &:hover {
+        background: lighten($color: #375573, $amount: 10%);
+        color: #FFFFFF;
+    }
+}

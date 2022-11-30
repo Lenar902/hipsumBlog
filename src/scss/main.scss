@@ -1,0 +1,33 @@
+/*Libs*/
+@import './libs/bootstrap-reboot.scss';
+@import './libs/bootstrap-grid.scss';
+
+/*Vars*/
+@import './variables/vars';
+
+/*Base*/
+@import './base/base';
+
+/*Sections*/
+@import './sections/header';
+@import './sections/footer';
+
+/*Blocks*/
+@import './blocks/social-icons';
+@import './blocks/logo';
+@import './blocks/search';
+@import './blocks/button';
+@import './blocks/post';
+@import './blocks/share-icons';
+@import './blocks/pagination';
+@import './blocks/widget';
+@import './blocks/post-widget';
+@import './blocks/widget-instagram';
+@import './blocks/copyright';
+@import './blocks/footer-nav';
+
+/*
+font-family: 'Exo 2', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
